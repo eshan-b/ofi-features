@@ -2,7 +2,7 @@
 
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
-This Python script computes Order Flow Imbalance (OFI) features from limit order book (LOB) data, as described in the paper ["Cross-impact of order flow imbalance in equity markets"](https://arxiv.org/abs/1912.13213) by Rama Cont, Mihai Cucuringu, and Chao Zhang (Quantitative Finance, 2023).
+This Python script computes Order Flow Imbalance (OFI) features from limit order book (LOB) data, as described in the paper ["Cross-impact of order flow imbalance in equity markets"](https://www.tandfonline.com/doi/pdf/10.1080/14697688.2023.2236159) by Rama Cont, Mihai Cucuringu, and Chao Zhang (Quantitative Finance, 2023).
 
 The script processes tick-by-tick LOB data to generate four types of OFI features: Best-Level OFI, Multi-Level OFI, Integrated OFI, and Cross-Asset OFI. These features are designed for analyzing price impact and cross-impact in equity markets, particularly for quantitative finance applications.
 
@@ -152,9 +152,9 @@ The output `ofi_features.csv` contains:
 
 ## References
 
-- Cont, R., Cucuringu, M., & Zhang, C. (2023). "Cross-impact of order flow imbalance in equity markets." _Quantitative Finance_. [arXiv:1912.13213](https://arxiv.org/abs/1912.13213).
+- Cont, R., Cucuringu, M., & Zhang, C. (2023). "Cross-impact of order flow imbalance in equity markets." _Quantitative Finance_. [doi: 10.1080/14697688.2023.2236159](https://www.tandfonline.com/doi/pdf/10.1080/14697688.2023.2236159).
 
-- Cont, R., Kukanov, A., & Stoikov, S. (2014). "The price impact of order book events." _Journal of Financial Econometrics_.
+- Cont, R., Kukanov, A., & Stoikov, S. (2014). "The price impact of order book events." _Journal of Financial Econometrics_. [doi: 10.48550/arXiv.1011.6402](https://arxiv.org/abs/1011.6402)
 
 ## License
 
