@@ -64,12 +64,6 @@ The script expects a CSV file with tick-by-tick LOB data, similar to Nasdaq ITCH
 
 3. The script outputs a CSV file (`ofi_features.csv`) with the computed OFI features.
 
-### Example Command
-
-```bash
-python compute_ofi_features.py
-```
-
 ### Output
 
 The output `ofi_features.csv` contains:
