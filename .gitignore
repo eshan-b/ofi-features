@@ -1,0 +1,47 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# Distribution and packaging
+*.egg
+*.egg-info/
+dist/
+build/
+sdist/
+*.tar.gz
+*.whl
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Test and coverage reports
+*.coverage
+*.coveragerc
+nosetests.xml
+coverage.xml
+*.hypothesis/
+
+# PyInstaller
+*.spec
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Black formatting
+*.bak
+*.orig
+
+# System files
+.DS_Store
+Thumbs.db
